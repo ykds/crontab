@@ -1,0 +1,11 @@
+{
+  "apiPort": 8070,
+  "readTimeout": 5,
+  "writeTimeout": 5,
+
+  "etcdConfig": {
+    "etcdEndpoints": ["127.0.0.1:2379"],
+    "etcdDialTimeout": 5
+  }
+
+}

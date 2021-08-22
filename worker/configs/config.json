@@ -1,0 +1,13 @@
+{
+  "etcdConfig": {
+    "etcdEndpoints": ["127.0.0.1:2379"],
+    "etcdDialTimeout": 5
+  },
+
+  "mongodb": {
+    "uri": "mongodb://127.0.0.1:27017",
+    "connectTimeout": 10,
+    "db": "test",
+    "collection": "test"
+  }
+}
